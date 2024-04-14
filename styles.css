@@ -1,0 +1,22 @@
+.heatmap-container {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(92, 92, 92);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
